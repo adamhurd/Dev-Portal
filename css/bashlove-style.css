@@ -1,0 +1,76 @@
+/* universal styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.clearfix {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+
+/* page styles */
+
+.home {
+	background: rgba(193, 232, 177, 0.69);
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(8,58,13);
+	}
+
+.box {
+	background: rgba(255,255,255,0.75);
+	padding: 5px 10px;
+	border: 2px solid rgba(0,0,0,0.7);
+	margin-bottom: 13px;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font: 14pt verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+h2 {
+	border-bottom: 1px solid #666;
+	clear: both;
+	font: 11pt verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 15px 0 10px 0;
+	padding: 0 0 3px 0;
+	width: 100%;
+}
+h3 {
+	font: 11pt verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 2px 0;
+	padding: 0;
+}
+li {
+	font-size: 10pt;
+	margin: 0 0 3px 5%;
+	padding: 0;
+}
+p {
+	font-size: 10pt;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+body ul {
+	margin: 0 0 0 20%;
+	padding: 0;
+}
+body div ul {
+	margin: 3px 0 0 0;
+	padding: 0;
+}

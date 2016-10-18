@@ -1,0 +1,47 @@
+.icon-sprite, .icon-html5, .icon-institute {
+  background-image: url('../img/icon-s0895377a90.png');
+  background-repeat: no-repeat;
+}
+
+.icon-html5 {
+  background-position: 0 -100px;
+}
+.icon-html5:hover, .icon-html5.html5-hover {
+  background-position: 0 0;
+}
+
+.icon-institute {
+  background-position: 0 -300px;
+}
+.icon-institute:hover, .icon-institute.institute-hover {
+  background-position: 0 -200px;
+}
+
+.icon-westfalia {
+  background-position: 0 -300px;
+}
+.icon-westfalia:hover, .icon-westfalia.westfalia-hover {
+  background-position: 0 -200px;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
