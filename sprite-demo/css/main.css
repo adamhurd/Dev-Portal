@@ -1,5 +1,5 @@
-.icon-sprite, .icon-html5, .icon-institute {
-  background-image: url('../img/icon-s0895377a90.png');
+.icon-sprite, .icon-html5, .icon-institute, .icon-westfalia {
+  background-image: url('../img/icon-s1a3f292df8.png');
   background-repeat: no-repeat;
 }
 
@@ -18,10 +18,10 @@
 }
 
 .icon-westfalia {
-  background-position: 0 -300px;
+  background-position: 0 -500px;
 }
 .icon-westfalia:hover, .icon-westfalia.westfalia-hover {
-  background-position: 0 -200px;
+  background-position: 0 -400px;
 }
 
 i {
