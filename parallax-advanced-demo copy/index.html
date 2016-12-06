@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>parallax advanced demo</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <main class="parallax">
+	    <section id="group1" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <header class="parallax-zoom-blur">
+	      	<h1 class="title">A Day in the Life of ...</h1>
+	      </header>
+	     <!--  <header class="parallax-zoom-blur"> <img src="https://unsplash.it/1800/1200?image=883"> </header> -->
+	    </section>
+
+	      <section id="group2" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <div class="parallaxLayer base2"></div>
+	      <div class="parallaxLayer base3"></div>
+	      <div class="parallaxLayer base4"></div>
+	     <!--  <figure>
+			<img src="http://placekitten.com/150/200" alt="placeholder kitten">
+	      </figure> -->
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus culpa saepe, necessitatibus officiis adipisci optio totam ex reiciendis iure dolorum, assumenda magnam. Repellat dolores, cumque illum quod reiciendis incidunt.</p>
+	    </section>
+
+		<section id="group3" class="group">
+	      <div class="parallaxLayer base"></div>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eligendi molestias, tenetur nam voluptate cum. Esse omnis deleniti explicabo nulla rem, ad excepturi culpa consectetur mollitia, vitae consequuntur pariatur aliquid.</p>
+	    </section>
+  </main>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+<script>
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+	$(".parallax-zoom-blur img").css({
+		width: (100 + scroll/5)  + "%",
+		top: -(scroll/10)  + "%",
+		//Blur suggestion from @janwagner: http://codepen.io/janwagner/ in comments
+		"-webkit-filter": "blur(" + (scroll/100) + "px)",
+		filter: "blur(" + (scroll/100) + "px)"
+	});
+});
+</script>	    
+</body>
+</html>
