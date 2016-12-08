@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.home{
+	background-color: rgba(0,10,1,1);
+	font-family: 'Roboto', sans-serif
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+	color: white;
+	text-decoration: underline;
+	padding: 2px 5px;
+	
+}
+body{
+	line-height: 1.8em;
+	color: white;	
+}
+h1{
+	font-family: 'Arvo', serif;
+	color:white;
+	margin-bottom: 25px;
+}
+
+
+
+.right{
+	float: right;
+}
+a:link {
+	color:white;
+
+}
+a:visited {
+	/*color: rgba(0,255,0,.1);*/
+	color: rgba(100,100,100,1);
+}
+
+a:hover{
+	background: rgba(255,255,255,.5);
+	color: black;
+}
+a:active {
+	color: rgb(0,255,0);
+}
+
+.container{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box {
+	background: rgba(0,0,0,0.5);
+	padding: 25px 20px;
+	border: 2px solid rgba(105,105,105,.65);
+	margin: 25px 0px;
+	
+}
+
+.boxheader {
+	background: rgba(0,0,0,0.5);
+	padding: 10px 20px;
+	margin: 25px 0px;
+	
+}
+.box2 {
+	background: rgba(0,0,0,0.5);
+	padding: 10px 20px;
+	border: 2px solid rgba(105,105,105,.65);
+}
+
+
+.pullquote{
+	font-size:1.2em;
+	font-variant: italic;
+	font-style: italic;
+}
+
+
+.pullquote2{
+	font-size:1.2em;
+	font-variant: none;
+}
+
+
+
+
+.mainheader1 {
+	background: url('../img/pg1.png') no-repeat rgba(0,0,0,1);
+	/*width: 728px;*/
+	height: 80px;
+}
+
+.mainheader2 {
+	background: url('../img/pg2.png') no-repeat rgba(0,0,0,1);
+	height: 80px
+	
+}
+
+.mainheader3 {
+	background: url('../img/pg3.png') no-repeat rgba(0,0,0,1);
+	height: 80px
+}
+
+.mainheader4 {
+	background: url('../img/pg4.png') no-repeat rgba(0,0,0,1);
+	height: 80px
+}
+
+.mainheader5 {
+	background: url('../img/pg5.png') no-repeat rgba(0,0,0,1);
+	height: 70px
+}
+
+.mainheader6 {
+	background: url('../img/pg6.png') no-repeat rgba(0,0,0,1);
+	height: 70px
+}
+
+.mainheader7 {
+	background: url('../img/pg7.png') no-repeat rgba(0,0,0,1);
+	height: 70px
+}
+
+.mainheader8 {
+	background: url('../img/pg8.png') no-repeat rgba(0,0,0,1);
+	height: 90px
+}
+
+.mainheader9 {
+	background: url('../img/pg9.png') no-repeat rgba(0,0,0,1);
+	height: 90px
+}
+
+.mainheader h1 {
+	position: absolute;
+	top:-9999em;
+	left:-9999em;
+
+}

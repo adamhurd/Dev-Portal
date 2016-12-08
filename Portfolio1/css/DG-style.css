@@ -1,0 +1,172 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,);
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.hide{
+	display: none;
+
+}
+
+.centerme {
+	text-align: center;
+	
+
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*page styles*/
+
+.home {
+	background: url('../img/flatirons-background2.jpg') center center fixed no-repeat;
+	background-size: cover;
+	/*font-family: 'Arvo', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	color: black;
+
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.multicollumn {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+}
+
+.credit {
+	font-style: italic;
+	text-align: right;
+	font-size: .8em;
+}
+
+
+
+p {
+	font-weight: 300;
+    text-indent: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    line-height: 1.4em;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Bitter', serif;
+}
+
+.pullquote{
+
+}
+
+
+.box {
+	background: rgba(255,255,255,0.6);
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	margin-top: 15px
+}
+
+footer.box{
+	width: 960px;
+}
+
+/*.one {
+	-moz-box-shadow: 15px -10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 15px -10px rgba(0,0,0,.2);
+	box-shadow: 15px -10px rgba(0,0,0,.2);*/
+
+.twocolumn{
+	width: 480px;
+}
+
+.column1of2 {
+	float: left;
+	width: 620px;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+.column2of2 {
+	float: right;
+	width: 315px;
+	margin: 10px;
+	margin-right: 0px;
+	font-size: .9em;
+
+}
+
+.mainheader {
+	background: url('../img/comp-lib-title.png') no-repeat rgba(255,255,255,0.0);
+	/*width: 728px;*/
+	height: 200px;
+}
+
+.mainheader h1 {
+	position: absolute;
+	top:-9999em;
+	left:-9999em;
+
+}
+
+.dream-machines {
+	background: url('../img/Dreammachine.png') no-repeat;
+	height: 300px ;
+	width: 349px ;
+}
+
+.mainheader h2 {
+	position: absolute;
+	top:-9999em;
+	left:-9999em;
+}
+
+
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
