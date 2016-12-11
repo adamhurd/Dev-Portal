@@ -5,6 +5,14 @@ body {
 	background: white;
 }
 
+ul li{
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
 main{
 	display: flex;
 	justify-content: space-around;
